@@ -210,3 +210,17 @@ $('#courses').onclick=e=>{
 $('#courses').onchange=e=>{if(e.target.id==='lesson-taught')run(()=>{const taught=e.target.checked;mutate(next=>{const c=next.classes.find(c=>c.id===current().id);c.lessonProgress??={};c.lessonProgress[selectedLesson]=taught;},taught?'已标记本班完成授课':'已取消授课标记');});};
 $('#date').textContent=new Date().toLocaleDateString('zh-CN',{weekday:'short',month:'short',day:'numeric',year:'numeric',timeZone:'Asia/Shanghai'});
 render();
+
+// Public roster contains only the fields approved for publication.
+async function loadPublicRoster(){
+  const version="public-roster-55709e2dba61c357";
+  if(location.protocol==='file:'||globalThis.CLASSBLOOM_SKIP_PUBLIC_ROSTER||damagedRaw||state.importedRosters?.includes(version))return;
+  try{
+    const response=await fetch('students.json?v='+version,{cache:'no-cache'});
+    if(!response.ok)throw new Error('名单文件暂不可用');
+    const result=mergeStudentRoster(state,await response.json());
+    result.state.importedRosters=[...(result.state.importedRosters||[]),version];
+    persist(result.state);render();
+  }catch(error){toast('班级名单未能自动加载：'+error.message+'。可稍后刷新，或使用「导入学员」。');}
+}
+loadPublicRoster();

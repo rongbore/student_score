@@ -12,6 +12,7 @@ const allowed=new Set(['index.html','style.css','data.js','roster.js','app.js'])
  try{
   browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
   const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.addInitScript(()=>{globalThis.CLASSBLOOM_SKIP_PUBLIC_ROSTER=true;});
   const url=`http://127.0.0.1:${server.address().port}`;await page.goto(url);
   assert.equal(await page.locator('#class-select option').count(),4);
   async function add(name,account){await page.locator('#add-student').click();await page.locator('[name="name"]').fill(name);await page.locator('[name="account"]').fill(account);await page.locator('[name="grade"]').fill('7.10');await page.locator('.submit').click();}

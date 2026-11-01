@@ -32,3 +32,8 @@ test('roster re-import matches accounts case-insensitively and preserves points'
  const merged=scope.mergeStudentRoster(s,roster);assert.equal(merged.added,0);assert.equal(merged.updated,1);assert.equal(merged.state.classes[0].students[0].points,10);assert.equal(s.classes[0].students[0].grade,'7.10');
  roster.classes[0].students.push({...roster.classes[0].students[0],account:'test01'});assert.throws(()=>scope.mergeStudentRoster(s,roster));
 });
+test('published roster has 160 distinct accounts and only approved student fields',()=>{
+ const roster=require('../students.json');assert.equal(roster.format,'classbloom-roster-v1');assert.deepEqual(roster.classes.map(c=>c.students.length),[26,40,41,53]);
+ const students=roster.classes.flatMap(c=>c.students);assert.equal(new Set(students.map(s=>s.account.toLowerCase())).size,160);
+ for(const s of students){assert.deepEqual(Object.keys(s).sort(),['account','grade','name']);assert.equal(typeof s.grade,'string');}
+});

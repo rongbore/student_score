@@ -12,7 +12,7 @@ const roster=JSON.parse(fs.readFileSync(rosterFile,'utf8'));
 validateState(mergeStudentRoster({classes:[{id:1,name:'本地班级',students:[]}],logs:[],selected:1},roster).state);
 let html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 html=html.replace('<link rel="stylesheet" href="style.css">',()=>'<style>'+fs.readFileSync(path.join(root,'style.css'),'utf8')+'</style>');
-for(const name of ['data.js','roster.js','app.js'])html=html.replace(`<script src="${name}"></script>`,()=>'<script>'+fs.readFileSync(path.join(root,name),'utf8')+'</script>');
+for(const name of ['data.js','roster.js','app.js'])html=html.replace(`<script src="${name}"></script>`,()=>'<script>'+(name==='app.js'?'globalThis.CLASSBLOOM_SKIP_PUBLIC_ROSTER=true;\n':'')+fs.readFileSync(path.join(root,name),'utf8')+'</script>');
 const data=JSON.stringify(roster).replace(/</g,'\\u003c');
 const importId='private-roster-'+require('node:crypto').createHash('sha256').update(JSON.stringify(roster)).digest('hex').slice(0,16);
 const bootstrap=`<script>

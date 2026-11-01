@@ -1,0 +1,825 @@
+{
+  "format": "classbloom-roster-v1",
+  "classes": [
+    {
+      "name": "莲华实验班",
+      "students": [
+        {
+          "name": "秦浩源",
+          "grade": "7.1",
+          "account": "qinhaoyuan02"
+        },
+        {
+          "name": "杨沛鑫",
+          "grade": "6.2",
+          "account": "yangpeixin02"
+        },
+        {
+          "name": "王雨瑶",
+          "grade": "6.2",
+          "account": "wangyuyao02"
+        },
+        {
+          "name": "徐瑞哲",
+          "grade": "7.1",
+          "account": "xuruizhe02"
+        },
+        {
+          "name": "杨同悦",
+          "grade": "6.2",
+          "account": "yangtongyue02"
+        },
+        {
+          "name": "王墨存",
+          "grade": "6.1",
+          "account": "wangmocun02"
+        },
+        {
+          "name": "常嘉航",
+          "grade": "6.5",
+          "account": "changjiahang02"
+        },
+        {
+          "name": "刘畅",
+          "grade": "6.4",
+          "account": "liuchang02"
+        },
+        {
+          "name": "崔浩轩",
+          "grade": "7.5",
+          "account": "cuihaoxuan02"
+        },
+        {
+          "name": "郭玉康",
+          "grade": "7.4",
+          "account": "guoyukang02"
+        },
+        {
+          "name": "蒋耀霆",
+          "grade": "6.1",
+          "account": "jiangyaoting02"
+        },
+        {
+          "name": "刘俊驰",
+          "grade": "6.3",
+          "account": "liujunchi02"
+        },
+        {
+          "name": "成鎔锗",
+          "grade": "6.4",
+          "account": "chengrongzhe02"
+        },
+        {
+          "name": "崔志远",
+          "grade": "6.5",
+          "account": "cuizhiyuan02"
+        },
+        {
+          "name": "曲至臻",
+          "grade": "6.5",
+          "account": "quzhizhen02"
+        },
+        {
+          "name": "王韬睿",
+          "grade": "6.5",
+          "account": "wangtaorui02"
+        },
+        {
+          "name": "韩晟凯",
+          "grade": "6.3",
+          "account": "hanchengkai02"
+        },
+        {
+          "name": "付嘉译",
+          "grade": "7.2",
+          "account": "fujiayi02"
+        },
+        {
+          "name": "陈汉文",
+          "grade": "6.5",
+          "account": "chenhanwen02"
+        },
+        {
+          "name": "曲相珅",
+          "grade": "5.7",
+          "account": "quxiangshen02"
+        },
+        {
+          "name": "刘睿泽",
+          "grade": "5.5",
+          "account": "liuruize02"
+        },
+        {
+          "name": "胡茗赫",
+          "grade": "5.7",
+          "account": "huminghe02"
+        },
+        {
+          "name": "高振煊",
+          "grade": "6.7",
+          "account": "gaozhenxuan02"
+        },
+        {
+          "name": "李益然",
+          "grade": "6.7",
+          "account": "liyiran02"
+        },
+        {
+          "name": "李嘉泽",
+          "grade": "6.6",
+          "account": "lijiaze02"
+        },
+        {
+          "name": "薛蕴宸",
+          "grade": "6.3",
+          "account": "xueyunchen02"
+        }
+      ]
+    },
+    {
+      "name": "滨州实验1班",
+      "students": [
+        {
+          "name": "刘云齐",
+          "grade": "5.11",
+          "account": "liuyunqi02"
+        },
+        {
+          "name": "樊一樊",
+          "grade": "5.1",
+          "account": "fanyifan02"
+        },
+        {
+          "name": "杨洛斌",
+          "grade": "5.11",
+          "account": "yangluobin02"
+        },
+        {
+          "name": "汤明泽",
+          "grade": "5.1",
+          "account": "tangmingze02"
+        },
+        {
+          "name": "张翊宸",
+          "grade": "5.1",
+          "account": "zhangyichen02"
+        },
+        {
+          "name": "宋依哲",
+          "grade": "5.6",
+          "account": "songyizhe02"
+        },
+        {
+          "name": "朱贺",
+          "grade": "5.6",
+          "account": "zhuhe02"
+        },
+        {
+          "name": "王梓旭",
+          "grade": "5.7",
+          "account": "wangzixu02"
+        },
+        {
+          "name": "王梓诺",
+          "grade": "6.8",
+          "account": "wangzinuo02"
+        },
+        {
+          "name": "陈政瑄",
+          "grade": "6.8",
+          "account": "chenzhengxuan02"
+        },
+        {
+          "name": "刘致远",
+          "grade": "6.8",
+          "account": "liuzhiyuan02"
+        },
+        {
+          "name": "马兆佑",
+          "grade": "7.5",
+          "account": "mazhaoyou02"
+        },
+        {
+          "name": "冯嘉铄",
+          "grade": "7.6",
+          "account": "fengjiashuo02"
+        },
+        {
+          "name": "王睿懿",
+          "grade": "6.8",
+          "account": "wangruiyi02"
+        },
+        {
+          "name": "孟家铖",
+          "grade": "6.1",
+          "account": "mengjiacheng02"
+        },
+        {
+          "name": "吕思贤",
+          "grade": "7.8",
+          "account": "lvsixian02"
+        },
+        {
+          "name": "顾可为",
+          "grade": "7.5",
+          "account": "gukewei02"
+        },
+        {
+          "name": "解博钧",
+          "grade": "7.2",
+          "account": "xiebojun02"
+        },
+        {
+          "name": "刘博仁",
+          "grade": "6.2",
+          "account": "liuboren02"
+        },
+        {
+          "name": "陈彧丞",
+          "grade": "6.3",
+          "account": "chenyucheng02"
+        },
+        {
+          "name": "卢春阳",
+          "grade": "6.3",
+          "account": "luchunyang02"
+        },
+        {
+          "name": "刘佳柠",
+          "grade": "7.10",
+          "account": "liujianing02"
+        },
+        {
+          "name": "舒帷烜",
+          "grade": "7.10",
+          "account": "shuweixuan02"
+        },
+        {
+          "name": "高婧珂",
+          "grade": "7.10",
+          "account": "gaojingke02"
+        },
+        {
+          "name": "孙嘉成",
+          "grade": "7.11",
+          "account": "sunjiacheng02"
+        },
+        {
+          "name": "牛立堃",
+          "grade": "7.11",
+          "account": "niulikun02"
+        },
+        {
+          "name": "石政彦",
+          "grade": "7.1",
+          "account": "shizhengyan02"
+        },
+        {
+          "name": "郭小萌",
+          "grade": "7.2",
+          "account": "guoxiaomeng02"
+        },
+        {
+          "name": "李文轩",
+          "grade": "7.2",
+          "account": "liwenxuan02"
+        },
+        {
+          "name": "王泽嘉",
+          "grade": "7.3",
+          "account": "wangzejia02"
+        },
+        {
+          "name": "齐文隽哲",
+          "grade": "7.3",
+          "account": "qiwenjuanzhe02"
+        },
+        {
+          "name": "代琪嫣",
+          "grade": "7.3",
+          "account": "daiqiyan02"
+        },
+        {
+          "name": "李秉政",
+          "grade": "7.3",
+          "account": "libingzheng02"
+        },
+        {
+          "name": "吴千一",
+          "grade": "7.3",
+          "account": "wuqianyi02"
+        },
+        {
+          "name": "李一菲",
+          "grade": "7.3",
+          "account": "liyifei02"
+        },
+        {
+          "name": "牛嘉东",
+          "grade": "7.4",
+          "account": "niujiadong02"
+        },
+        {
+          "name": "刘俊毅",
+          "grade": "7.8",
+          "account": "liujunyi02"
+        },
+        {
+          "name": "李佳恒",
+          "grade": "7.8",
+          "account": "lijiaheng02"
+        },
+        {
+          "name": "李星辰",
+          "grade": "7.9",
+          "account": "lixingchen02"
+        },
+        {
+          "name": "李政德",
+          "grade": "7.9",
+          "account": "lizhengde02"
+        }
+      ]
+    },
+    {
+      "name": "滨州实验2班",
+      "students": [
+        {
+          "name": "刘以默",
+          "grade": "5.11",
+          "account": "liuyimo02"
+        },
+        {
+          "name": "张忆初",
+          "grade": "5.1",
+          "account": "zhangyichu02"
+        },
+        {
+          "name": "丛振钊",
+          "grade": "5.11",
+          "account": "congzhenzhao02"
+        },
+        {
+          "name": "李言书",
+          "grade": "5.1",
+          "account": "liyanshu02"
+        },
+        {
+          "name": "于谨诚",
+          "grade": "5.1",
+          "account": "yujincheng02"
+        },
+        {
+          "name": "张轩畅",
+          "grade": "5.6",
+          "account": "zhangxuanchang02"
+        },
+        {
+          "name": "孙亦关",
+          "grade": "5.6",
+          "account": "sunyiguan02"
+        },
+        {
+          "name": "李宇瞳",
+          "grade": "5.7",
+          "account": "liyutong02"
+        },
+        {
+          "name": "张家润",
+          "grade": "6.8",
+          "account": "zhangjiarun02"
+        },
+        {
+          "name": "王嘉赫",
+          "grade": "6.8",
+          "account": "wangjiahe02"
+        },
+        {
+          "name": "路于洋",
+          "grade": "6.8",
+          "account": "luyuyang02"
+        },
+        {
+          "name": "王梓潼",
+          "grade": "7.5",
+          "account": "wangzitong02"
+        },
+        {
+          "name": "孙久远",
+          "grade": "7.6",
+          "account": "sunjiuyuan02"
+        },
+        {
+          "name": "王泽润",
+          "grade": "6.8",
+          "account": "wangzerun02"
+        },
+        {
+          "name": "马玉涵",
+          "grade": "6.1",
+          "account": "mayuhan02"
+        },
+        {
+          "name": "张泽旭",
+          "grade": "7.8",
+          "account": "zhangzexu02"
+        },
+        {
+          "name": "王一一",
+          "grade": "7.5",
+          "account": "wangyiyi02"
+        },
+        {
+          "name": "潘佳绅",
+          "grade": "7.2",
+          "account": "panjiashen02"
+        },
+        {
+          "name": "宣茗瀚",
+          "grade": "6.2",
+          "account": "xuanminghan02"
+        },
+        {
+          "name": "杨济泽",
+          "grade": "6.3",
+          "account": "yangjize02"
+        },
+        {
+          "name": "刘思齐",
+          "grade": "6.3",
+          "account": "liusiqi02"
+        },
+        {
+          "name": "孟凡婧妍",
+          "grade": "7.10",
+          "account": "mengfanjingyan02"
+        },
+        {
+          "name": "张家贺",
+          "grade": "7.10",
+          "account": "zhangjiahe02"
+        },
+        {
+          "name": "万皓宁",
+          "grade": "7.10",
+          "account": "wanhaoning02"
+        },
+        {
+          "name": "张钊铭",
+          "grade": "7.11",
+          "account": "zhangzhaoming02"
+        },
+        {
+          "name": "范锦昊",
+          "grade": "7.11",
+          "account": "fanjinhao02"
+        },
+        {
+          "name": "耿睿泽",
+          "grade": "7.1",
+          "account": "gengruize02"
+        },
+        {
+          "name": "张泰元",
+          "grade": "7.2",
+          "account": "zhangtaiyuan02"
+        },
+        {
+          "name": "李纳欣",
+          "grade": "7.2",
+          "account": "linaxin02"
+        },
+        {
+          "name": "张佳茵",
+          "grade": "7.3",
+          "account": "zhangjiayin02"
+        },
+        {
+          "name": "马骏晓",
+          "grade": "7.3",
+          "account": "majunxiao02"
+        },
+        {
+          "name": "舒鑫",
+          "grade": "7.3",
+          "account": "shuxin02"
+        },
+        {
+          "name": "张辰宇",
+          "grade": "7.3",
+          "account": "zhangchenyu02"
+        },
+        {
+          "name": "张俊贺",
+          "grade": "7.3",
+          "account": "zhangjunhe02"
+        },
+        {
+          "name": "陈正石",
+          "grade": "7.3",
+          "account": "chenzhengshi02"
+        },
+        {
+          "name": "周开阔",
+          "grade": "7.4",
+          "account": "zhoukaikuo02"
+        },
+        {
+          "name": "李伯翰",
+          "grade": "7.8",
+          "account": "libohan02"
+        },
+        {
+          "name": "刘思远",
+          "grade": "7.8",
+          "account": "liusiyuan02"
+        },
+        {
+          "name": "邱炳硕",
+          "grade": "7.9",
+          "account": "qiubingshuo02"
+        },
+        {
+          "name": "曹家禾",
+          "grade": "7.9",
+          "account": "caojiahe02"
+        },
+        {
+          "name": "张琳紫",
+          "grade": "",
+          "account": "zhanglinzi02"
+        }
+      ]
+    },
+    {
+      "name": "滨州一中班",
+      "students": [
+        {
+          "name": "邱先卓",
+          "grade": "6.1",
+          "account": "qiuxianzhuo02"
+        },
+        {
+          "name": "张琰美瑜",
+          "grade": "6.1",
+          "account": "zhangyanmeiyu02"
+        },
+        {
+          "name": "王睿博",
+          "grade": "6.1",
+          "account": "wangruibo02"
+        },
+        {
+          "name": "胡骏毅",
+          "grade": "6.1",
+          "account": "hujunyi02"
+        },
+        {
+          "name": "蔺楚歆",
+          "grade": "6.1",
+          "account": "linchuxin02"
+        },
+        {
+          "name": "高钦",
+          "grade": "6.1",
+          "account": "gaoqin02"
+        },
+        {
+          "name": "刘浩义",
+          "grade": "6.1",
+          "account": "liuhaoyi02"
+        },
+        {
+          "name": "俎欣逸",
+          "grade": "6.1",
+          "account": "zuxinyi02"
+        },
+        {
+          "name": "董雅文",
+          "grade": "6.1",
+          "account": "dongyawen02"
+        },
+        {
+          "name": "毛一帆",
+          "grade": "6.1",
+          "account": "maoyifan02"
+        },
+        {
+          "name": "朱溪琛",
+          "grade": "6.1",
+          "account": "zhuxichen02"
+        },
+        {
+          "name": "刘洺菡",
+          "grade": "6.2",
+          "account": "liuminghan02"
+        },
+        {
+          "name": "梁嘉航",
+          "grade": "6.2",
+          "account": "liangjiahang02"
+        },
+        {
+          "name": "刘一楠",
+          "grade": "6.2",
+          "account": "liuyinan02"
+        },
+        {
+          "name": "秦昊阳",
+          "grade": "6.2",
+          "account": "qinhaoyang02"
+        },
+        {
+          "name": "张瑞濛",
+          "grade": "6.2",
+          "account": "zhangruimeng02"
+        },
+        {
+          "name": "宗筱彧",
+          "grade": "7.1",
+          "account": "zongxiaoyu02"
+        },
+        {
+          "name": "赵梓晨",
+          "grade": "7.1",
+          "account": "zhaozichen02"
+        },
+        {
+          "name": "孟凡壹",
+          "grade": "7.1",
+          "account": "mengfanyi02"
+        },
+        {
+          "name": "邢奕轩",
+          "grade": "7.1",
+          "account": "xingyixuan02"
+        },
+        {
+          "name": "张紫萱",
+          "grade": "7.1",
+          "account": "zhangzixuan02"
+        },
+        {
+          "name": "朱逸萱",
+          "grade": "7.1",
+          "account": "zhuyixuan02"
+        },
+        {
+          "name": "刘鑫怡",
+          "grade": "7.1",
+          "account": "liuxinyi02"
+        },
+        {
+          "name": "胡熙琳",
+          "grade": "7.1",
+          "account": "huxilin02"
+        },
+        {
+          "name": "刘相瑞",
+          "grade": "7.1",
+          "account": "liuxiangrui02"
+        },
+        {
+          "name": "王艺峰",
+          "grade": "7.1",
+          "account": "wangyifeng02"
+        },
+        {
+          "name": "石浩君",
+          "grade": "7.1",
+          "account": "shihaojun02"
+        },
+        {
+          "name": "魏柏宇",
+          "grade": "7.1",
+          "account": "weibaiyu02"
+        },
+        {
+          "name": "王浩展",
+          "grade": "7.2",
+          "account": "wanghaozhan02"
+        },
+        {
+          "name": "郭一铭",
+          "grade": "7.2",
+          "account": "guoyiming02"
+        },
+        {
+          "name": "孙邦智",
+          "grade": "7.2",
+          "account": "sunbangzhi02"
+        },
+        {
+          "name": "赵明轩",
+          "grade": "7.2",
+          "account": "zhaomingxuan02"
+        },
+        {
+          "name": "杨帆",
+          "grade": "7.2",
+          "account": "yangfan02"
+        },
+        {
+          "name": "宋奕铭",
+          "grade": "7.2",
+          "account": "songyiming02"
+        },
+        {
+          "name": "高宽",
+          "grade": "7.2",
+          "account": "gaokuan02"
+        },
+        {
+          "name": "李泽雨",
+          "grade": "7.2",
+          "account": "lizeyu02"
+        },
+        {
+          "name": "刘方伟",
+          "grade": "7.2",
+          "account": "liufangwei02"
+        },
+        {
+          "name": "李家祥",
+          "grade": "7.2",
+          "account": "lijiaxiang02"
+        },
+        {
+          "name": "王宇矾",
+          "grade": "7.2",
+          "account": "wangyufan02"
+        },
+        {
+          "name": "张秋果",
+          "grade": "7.2",
+          "account": "zhangqiuguo02"
+        },
+        {
+          "name": "王艺萱",
+          "grade": "7.2",
+          "account": "wangyixuan02"
+        },
+        {
+          "name": "张赟扬",
+          "grade": "7.2",
+          "account": "zhangyunyang02"
+        },
+        {
+          "name": "陈雨熙",
+          "grade": "7.3",
+          "account": "chenyuxi02"
+        },
+        {
+          "name": "殷嘉怡",
+          "grade": "7.3",
+          "account": "yinjiayi02"
+        },
+        {
+          "name": "张智涵",
+          "grade": "7.3",
+          "account": "zhangzhihan02"
+        },
+        {
+          "name": "高芸汐",
+          "grade": "7.3",
+          "account": "gaoyunxi02"
+        },
+        {
+          "name": "马晨轩",
+          "grade": "7.3",
+          "account": "machenxuan02"
+        },
+        {
+          "name": "刘瑾熠",
+          "grade": "7.3",
+          "account": "liujinyi02"
+        },
+        {
+          "name": "吉凌菡",
+          "grade": "7.3",
+          "account": "jilinghan02"
+        },
+        {
+          "name": "李安歌",
+          "grade": "7.3",
+          "account": "liange02"
+        },
+        {
+          "name": "李欣怡",
+          "grade": "7.3",
+          "account": "lixinyi02"
+        },
+        {
+          "name": "胡依宸",
+          "grade": "7.3",
+          "account": "huyichen02"
+        },
+        {
+          "name": "吕向阳",
+          "grade": "7.3",
+          "account": "lvxiangyang02"
+        }
+      ]
+    }
+  ]
+}
