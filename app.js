@@ -1,10 +1,18 @@
 const KEY='classbloom-v1';
-const people=[['陈子轩','👦🏻','好奇心小探险家','#eaf0df',128,18],['林可欣','👧🏼','友善小天使','#f8e8da',156,24],['张宇航','👦🏽','创意小达人','#e9e7f4',112,12],['李诗涵','👧🏻','班级小太阳','#f9efcf',145,20],['刘浩然','👦🏼','勇敢学习小先锋','#e2eef0',98,10],['周语桐','👧🏽','阅读小能手','#f5e4e9',137,16],['王奕辰','👦🏾','合作小明星','#eee8db',121,15],['赵欣然','👧🏻','梦想小种子','#e8edfa',149,22]];
-const initial={classes:[{id:1,name:'三年级一班 · 向日葵班',students:people.map((p,i)=>({id:i+1,name:p[0],emoji:p[1],title:p[2],color:p[3],points:p[4],after:p[5]}))},{id:2,name:'三年级二班 · 小雏菊班',students:[]},{id:3,name:'四年级一班 · 探索班',students:[]}],logs:[],selected:1};
+const requiredClasses=['莲花实验班','滨州实验1班','滨州实验2班','滨州一中班'];
+const initial={classes:requiredClasses.map((name,i)=>({id:i+1,name,students:[]})),logs:[],selected:1};
 let state;try{state=JSON.parse(localStorage.getItem(KEY))||structuredClone(initial)}catch{state=structuredClone(initial)}
 const legacyText={"Oliver Chen": "陈子轩", "Emma Wilson": "林可欣", "Noah Williams": "张宇航", "Sophia Lee": "李诗涵", "Liam Johnson": "刘浩然", "Ava Thompson": "周语桐", "Ethan Davis": "王奕辰", "Isabella Wang": "赵欣然", "Curious explorer": "好奇心小探险家", "Kindness champion": "友善小天使", "Creative thinker": "创意小达人", "Little ray of sunshine": "班级小太阳", "Brave little learner": "勇敢学习小先锋", "Brilliant bookworm": "阅读小能手", "Teamwork superstar": "合作小明星", "Big dreamer": "梦想小种子", "Class 3A · Sunflowers": "三年级一班 · 向日葵班", "Class 3B · Daisies": "三年级二班 · 小雏菊班", "Class 4A · Explorers": "四年级一班 · 探索班", "Ready to shine": "准备好闪闪发光", "Great effort": "表现很棒", "Learning moment": "成长提醒"};
 for(const c of state.classes){c.name=legacyText[c.name]||c.name;for(const s of c.students){s.name=legacyText[s.name]||s.name;s.title=legacyText[s.title]||s.title}}
 for(const l of state.logs){l.name=legacyText[l.name]||l.name;l.reason=legacyText[l.reason]||l.reason}
+// Add requested classes once; preserve all existing classes, students and points.
+for(const [i,name] of requiredClasses.entries()){
+  if(!state.classes.some(c=>c.name===name))state.classes.push({id:Math.max(0,...state.classes.map(c=>c.id))+1,name,students:[]});
+}
+if(!state.requestedClassesAdded){
+  state.selected=state.classes.find(c=>c.name===requiredClasses[0]).id;
+  state.requestedClassesAdded=true;
+}
 localStorage.setItem(KEY,JSON.stringify(state));
 let view='classroom',filter='all',modalAction=null;
 const $=s=>document.querySelector(s);const current=()=>state.classes.find(c=>c.id===state.selected)||state.classes[0];
